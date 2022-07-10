@@ -1,0 +1,27 @@
+.info-container {
+  text-align: center;
+}
+
+.info {
+  //   height: 550px;
+  //   background-image: url("../../../images/smth.png");
+  //   background-size: cover;
+}
+
+.info-blur {
+  background: rgba(79, 192, 255, 0.15);
+}
+
+.info--paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  /* or 23px */
+
+  text-align: center;
+
+  color: $main-white;
+
+  padding-top: 92px;
+  padding-bottom: 40px;
+}

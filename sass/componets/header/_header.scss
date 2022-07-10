@@ -1,0 +1,46 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.header--logo {
+  fill: $main-white;
+  width: 172px;
+  height: 34px;
+}
+
+.header--btn {
+  position: relative;
+  z-index: 1;
+
+  background-color: transparent;
+  border: none;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+  fill: $logo-color;
+
+  &:focus,
+  &:hover {
+    fill: $accent-color;
+  }
+}
+
+.header--icon {
+  width: 20px;
+  height: 25px;
+}
+
+.btn--text {
+  color: $main-white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  opacity: 0.7;
+}
