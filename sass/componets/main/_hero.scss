@@ -4,7 +4,14 @@
 }
 
 .hero-blur {
-  background: rgba(47, 182, 255, 0.15);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(250px);
+  filter: blur(250px);
+  background: rgba(58, 126, 165, 0.15);
 }
 
 .composition {
@@ -76,4 +83,8 @@
   text-transform: uppercase;
 
   color: #192227;
+
+  .hero-container & {
+    margin-top: 40px;
+  }
 }
