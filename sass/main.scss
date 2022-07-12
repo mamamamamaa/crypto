@@ -1,10 +1,19 @@
+// ========== TOOLS ===========
+
 @import "./utils/vars";
 @import "./utils/mainSet";
 @import "./utils/container";
 @import "./utils/entry";
+
+// ========== STYLES ===========
 
 @import "./componets/header/header";
 @import "./componets/main/hero";
 @import "./componets/main/info";
 @import "./componets/main/products";
 @import "./componets/main/about";
+@import "./componets/main/exchange";
+@import "./componets/main/partners";
+@import "./componets/main/benefits";
+@import "./componets/main/mobile-app";
+@import "./componets/main/afilliate-program";

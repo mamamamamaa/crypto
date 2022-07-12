@@ -1,0 +1,47 @@
+.afilliate-program {
+  position: relative;
+}
+
+.afilliate-program--blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 164 255 / 15%);
+  -webkit-filter: blur(250px);
+  filter: blur(250px);
+}
+.afilliate-program--img {
+  width: 100%;
+  height: 100%;
+}
+
+.afilliate-program--header {
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 118%;
+  /* or 51px */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  margin-bottom: 25px;
+}
+
+.afilliate-program--paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 118%;
+  /* or 24px */
+
+  color: #ffffff;
+
+  margin-bottom: 70px;
+}
+
+.btn-contaner {
+  display: flex;
+  justify-content: center;
+}

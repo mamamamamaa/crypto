@@ -1,0 +1,27 @@
+.partners-container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.partners--item {
+  margin: 20px;
+}
+
+.partners--list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 417px) {
+  .partners--list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .partners--item {
+    margin: 20px;
+  }
+}
