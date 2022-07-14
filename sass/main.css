@@ -616,7 +616,7 @@ textarea {
 }
 
 .questions-container {
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -648,4 +648,51 @@ textarea {
   background-color: transparent;
   text-align: start;
   padding: 15px 0;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.footer--logo {
+  fill: #5e5e5e;
+}
+
+.footer--list {
+  display: flex;
+}
+.footer--list li:not(:last-child) {
+  margin-right: 3px;
+}
+
+.address-cotainer {
+  margin-bottom: 55px;
+}
+
+.footer-paragraph,
+.footer--address p {
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+  color: #5e5e5e;
+  font-style: normal;
+}
+
+.footer-paragraph {
+  margin-bottom: 10px;
+}
+
+.footer--btn {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: 0;
 }/*# sourceMappingURL=main.css.map */

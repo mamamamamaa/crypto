@@ -1,0 +1,36 @@
+.address-cotainer {
+  margin-bottom: 55px;
+}
+
+.footer-paragraph,
+.footer--address p {
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+
+  color: $footer-color;
+
+  font-style: normal;
+}
+
+.footer-paragraph {
+  margin-bottom: 10px;
+}
+
+.footer--btn {
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  color: $main-white;
+
+  background-color: transparent;
+
+  border: 0;
+}

@@ -1,0 +1,17 @@
+.link-container {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+}
+
+.footer--logo {
+  fill: $footer-color;
+}
+
+.footer--list {
+  display: flex;
+  & li:not(:last-child) {
+    margin-right: 3px;
+  }
+}

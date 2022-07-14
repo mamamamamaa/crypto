@@ -1,13 +1,15 @@
 // ========== TOOLS ===========
-
 @import "./utils/vars";
 @import "./utils/mainSet";
 @import "./utils/container";
 @import "./utils/entry";
 
-// ========== STYLES ===========
+// ============= STYLES ==============
 
+// ========= HEADER ==========
 @import "./componets/header/header";
+
+// ========= MAIN ==========
 @import "./componets/main/hero";
 @import "./componets/main/info";
 @import "./componets/main/products";
@@ -18,3 +20,7 @@
 @import "./componets/main/mobile-app";
 @import "./componets/main/afilliate-program";
 @import "./componets/main/questions";
+
+// ========= FOOTER ==========
+@import "./componets/footer/links";
+@import "./componets/footer/address";
