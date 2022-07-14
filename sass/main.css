@@ -556,16 +556,21 @@ textarea {
 
 .afilliate-program {
   position: relative;
+  overflow: hidden;
+  background-color: #000;
 }
 
-.afilliate-program--blur {
+.afilliate-program-container {
+  padding-bottom: 250px;
+  padding-top: 160px;
+}
+
+.afilliate-program--img-container {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 164, 255, 0.15);
-  filter: blur(250px);
+  overflow: hidden;
+  top: 25%;
+  left: 0px;
+  padding-top: 230px;
 }
 
 .afilliate-program--img {
@@ -573,7 +578,15 @@ textarea {
   height: 100%;
 }
 
+.galaxy-blur {
+  width: 100%;
+  position: absolute;
+  top: -50%;
+  left: 0px;
+}
+
 .afilliate-program--header {
+  position: relative;
   font-weight: 700;
   font-size: 43px;
   line-height: 118%;
@@ -584,6 +597,7 @@ textarea {
 }
 
 .afilliate-program--paragraph {
+  position: relative;
   font-weight: 400;
   font-size: 20px;
   line-height: 118%;
@@ -595,4 +609,43 @@ textarea {
 .btn-contaner {
   display: flex;
   justify-content: center;
+}
+
+.questions {
+  background-color: rgb(14, 19, 20);
+}
+
+.questions-container {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.questions--header {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 12px;
+  /* or 24% */
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.questions--list {
+  padding-left: 10px;
+}
+
+.questions--item {
+  border-bottom: 1px solid #fff;
+}
+
+.questions--btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  /* or 89% */
+  color: #4fffca;
+  border: 0;
+  background-color: transparent;
+  text-align: start;
+  padding: 15px 0;
 }/*# sourceMappingURL=main.css.map */

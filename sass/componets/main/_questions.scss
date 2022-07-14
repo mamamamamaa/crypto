@@ -1,0 +1,42 @@
+.questions {
+  background-color: $main-black;
+}
+
+.questions-container {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.questions--header {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 12px;
+  /* or 24% */
+
+  text-transform: uppercase;
+
+  color: $main-white;
+
+  padding-bottom: 25px;
+}
+
+.questions--list {
+  padding-left: 10px;
+}
+.questions--item {
+  border-bottom: 1px solid $main-white;
+}
+
+.questions--btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  /* or 89% */
+
+  color: $accent-color;
+  border: 0;
+  background-color: transparent;
+  text-align: start;
+
+  padding: 15px 0;
+}
