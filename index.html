@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,7 +28,7 @@
           <use href="./images/symbol-defs.svg#icon-logo"></use>
         </svg>
         <button type="button" class="header--btn">
-          <svg class="header--icon" width="">
+          <svg class="header--icon">
             <use href="./images/symbol-defs.svg#icon-log-in"></use>
           </svg>
           <span class="btn--text">ENG</span>
@@ -339,6 +340,16 @@
             <li class="questions--item">
               <button type="button" class="questions--btn">
                 2FA code error
+                <p class="btn-paragraph js-display">
+                  If you see '2FA Code Error' when entering the Google
+                  authentication code, follow the instructions below to solve
+                  the problem:
+                </p>
+                <p class="btn-paragraph js-display">
+                  Synchronize the time (clock) on your mobile phone (the Google
+                  Authenticator app) and the computer (from which you are trying
+                  to log in).
+                </p>
               </button>
             </li>
             <li class="questions--item">
@@ -422,5 +433,6 @@
         </button>
       </div>
     </footer>
+    <script src="./js/questions.js" type="module"></script>
   </body>
 </html>

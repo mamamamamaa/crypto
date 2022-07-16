@@ -13,7 +13,8 @@
   position: absolute;
   overflow: hidden;
   top: 25%;
-  left: 0px;
+  left: 50%;
+  transform: translateX(-50%);
 
   padding-top: 230px;
 }
@@ -59,4 +60,19 @@
 .btn-contaner {
   display: flex;
   justify-content: center;
+}
+
+.btn-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 100% */
+
+  color: $main-white;
+
+  padding-top: 15px;
+}
+
+.js-display {
+  display: none;
 }
