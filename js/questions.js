@@ -50,4 +50,17 @@
 //     );
 // }
 
-console.log(luckCheck("6F43E8"));
+// console.log(luckCheck("6F43E8"));
+
+const listRef = document.querySelector(".questions--list");
+
+listRef.addEventListener("click", (elem) => {
+  if (elem.target.nodeName !== "BUTTON") {
+    return;
+  }
+  // console.log(elem.target);
+  const boxRef = elem.target.querySelector(".questions-box");
+  boxRef.classList.contains("js-display")
+    ? boxRef.classList.remove("js-display")
+    : boxRef.classList.add("js-display");
+});
