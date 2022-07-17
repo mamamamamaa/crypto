@@ -18,7 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./sass/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
     <title>Crypto</title>
   </head>
   <body>
@@ -27,12 +28,35 @@
         <svg class="header--logo">
           <use href="./images/symbol-defs.svg#icon-logo"></use>
         </svg>
+
         <button type="button" class="header--btn">
           <svg class="header--icon">
             <use href="./images/symbol-defs.svg#icon-log-in"></use>
           </svg>
           <span class="btn--text">ENG</span>
         </button>
+
+        <div class="header--desctop-box">
+          <nav>
+            <ul class="header--list">
+              <li>
+                <button type="button" class="header--desc-btn">login</button>
+              </li>
+              <li>
+                <button type="button" class="header--desc-btn">
+                  registration
+                </button>
+              </li>
+            </ul>
+          </nav>
+
+          <button type="button" class="header-lang">
+            EN
+            <svg width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-check"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -48,7 +72,7 @@
           </div>
 
           <h1 class="hero--header">ZERO DEPOZIT FEE</h1>
-          <button class="btn">START</button>
+          <button class="btn hero--btn">START</button>
         </div>
       </section>
 

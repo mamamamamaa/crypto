@@ -37,12 +37,17 @@ textarea {
 }
 
 .container {
-  min-width: 310px;
+  min-width: 300px;
   max-width: 400px;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 .entry-title {
@@ -67,6 +72,12 @@ textarea {
   width: 172px;
   height: 34px;
 }
+@media screen and (min-width: 1200px) {
+  .header--logo {
+    width: 191px;
+    height: 38px;
+  }
+}
 
 .header--btn {
   background-color: transparent;
@@ -78,6 +89,11 @@ textarea {
 }
 .header--btn:focus, .header--btn:hover {
   fill: #4fffca;
+}
+@media screen and (min-width: 1200px) {
+  .header--btn {
+    display: none;
+  }
 }
 
 .header--icon {
@@ -93,6 +109,54 @@ textarea {
   /* identical to box height */
   text-transform: uppercase;
   opacity: 0.7;
+}
+
+.header--desctop-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1199px) {
+  .header--desctop-box {
+    display: none;
+  }
+}
+
+.header--desc-btn {
+  border: 0;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.header--list {
+  display: flex;
+}
+.header--list li:last-child button {
+  color: #4fffca;
+}
+.header--list li:last-child button:hover {
+  color: #fff;
+}
+.header--list li:first-child button:hover {
+  color: #4fffca;
+}
+.header--list li:first-child button {
+  border-right: 1px solid #fff;
+}
+
+.header-lang {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  border: 0;
+  background-color: transparent;
+  color: #fff;
 }
 
 .hero-container {
@@ -123,6 +187,12 @@ textarea {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+@media screen and (min-width: 1200px) {
+  .hero--null {
+    font-size: 600px;
+    line-height: 731px;
+  }
+}
 
 .hero-img {
   position: absolute;
@@ -142,6 +212,12 @@ textarea {
   bottom: 10%;
   right: 28%;
 }
+@media screen and (min-width: 1200px) {
+  .hero--persent {
+    font-size: 255px;
+    line-height: 311px;
+  }
+}
 
 .hero--header {
   font-weight: 700;
@@ -150,6 +226,12 @@ textarea {
   text-align: center;
   text-transform: uppercase;
   color: #ebe7e5;
+}
+@media screen and (min-width: 1200px) {
+  .hero--header {
+    font-size: 52px;
+    line-height: 63px;
+  }
 }
 
 .btn {
@@ -169,12 +251,19 @@ textarea {
   margin-top: 40px;
 }
 
+@media screen and (min-width: 1200px) {
+  .hero--btn {
+    width: 180px;
+    height: 45px;
+  }
+}
+
 .info-container {
   padding-bottom: 500px;
   background-repeat: no-repeat;
   position: relative;
   text-align: center;
-  background-image: url("../images/smth.png");
+  background-image: url("../../images/smth.png");
   background-position: bottom;
   position: relative;
   background-color: #000;
@@ -269,7 +358,7 @@ textarea {
   height: 120%;
   top: -150px;
   left: 0px;
-  background: url("../images/about-bg.png");
+  background: url("../../images/about-bg.png");
 }
 
 .about--box {

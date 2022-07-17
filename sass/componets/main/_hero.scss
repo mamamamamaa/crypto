@@ -32,7 +32,11 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  //   text-fill-color: transparent;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 600px;
+    line-height: 731px;
+  }
 }
 
 .hero-img {
@@ -50,11 +54,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  //   text-fill-color: transparent;
 
   position: absolute;
   bottom: 10%;
   right: 28%;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 255px;
+    line-height: 311px;
+  }
 }
 
 .hero--header {
@@ -65,6 +73,11 @@
   text-transform: uppercase;
 
   color: #ebe7e5;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 52px;
+    line-height: 63px;
+  }
 }
 
 .btn {
@@ -86,5 +99,12 @@
 
   .hero-container & {
     margin-top: 40px;
+  }
+}
+
+.hero--btn {
+  @media screen and (min-width: 1200px) {
+    width: 180px;
+    height: 45px;
   }
 }

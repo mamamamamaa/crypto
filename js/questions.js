@@ -58,9 +58,7 @@ listRef.addEventListener("click", (elem) => {
   if (elem.target.nodeName !== "BUTTON") {
     return;
   }
-  // console.log(elem.target);
+
   const boxRef = elem.target.querySelector(".questions-box");
-  boxRef.classList.contains("js-display")
-    ? boxRef.classList.remove("js-display")
-    : boxRef.classList.add("js-display");
+  boxRef.classList.toggle("js-display");
 });

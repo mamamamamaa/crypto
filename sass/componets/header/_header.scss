@@ -8,6 +8,11 @@
   fill: $main-white;
   width: 172px;
   height: 34px;
+
+  @media screen and (min-width: 1200px) {
+    width: 191px;
+    height: 38px;
+  }
 }
 
 .header--btn {
@@ -22,6 +27,10 @@
   &:focus,
   &:hover {
     fill: $accent-color;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: none;
   }
 }
 
@@ -40,4 +49,64 @@
   text-transform: uppercase;
 
   opacity: 0.7;
+}
+
+// ======== DESCTOP ========
+
+.header--desctop-box {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.header--desc-btn {
+  border: 0;
+  background-color: transparent;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.header--list {
+  display: flex;
+  & li:last-child button {
+    color: $accent-color;
+  }
+
+  & li:last-child button:hover {
+    color: $main-white;
+  }
+
+  & li:first-child button:hover {
+    color: $accent-color;
+  }
+
+  & li:first-child button {
+    border-right: 1px solid $main-white;
+  }
+}
+
+.header-lang {
+  display: flex;
+  align-items: center;
+
+  margin-left: 40px;
+
+  border: 0;
+  background-color: transparent;
+
+  color: $main-white;
 }
